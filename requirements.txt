@@ -1,0 +1,12 @@
+PyQt6
+chromadb
+peewee
+sentence-transformers
+openai
+httpx
+loguru
+keyring
+PyMuPDF
+jieba
+tomli-w
+pytest

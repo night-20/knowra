@@ -1,0 +1,49 @@
+# Python 缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# 环境配置与凭据
+.env
+.env.local
+
+# 测试报告与缓存
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 日志与临时文件
+*.log
+logs/
+test_output.log
+wrapper_output.txt
+wrapper.py
+
+# 发布与打包构建
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# 数据库与本地持久化 (如果放在当前目录的情况)
+*.sqlite3
+*.db
+chroma_db/
+vectorstore/
+
+# IDE 和工具配置
+.vscode/
+.idea/
+.antigravity/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
